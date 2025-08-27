@@ -395,7 +395,7 @@ async def main():
     async with bot:
         await load_extensions()
         # Получаем токен из переменной окружения
-        token = os.getenv('DISCORD_TOKEN', 'MTM4ODgzMjg2MTk2ODQwNDYzMg.G5Xeqv.-2HdtCqPW8QOveIN3v4LjiuG5mCH7c4f4mDZ8Y')
+        token = os.getenv('DISCORD_TOKEN', 'Token')
         await bot.start(token)
 
 if __name__ == "__main__":
